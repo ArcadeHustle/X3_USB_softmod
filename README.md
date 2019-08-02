@@ -10,7 +10,7 @@ Big thanks to Mitsurugi_w, Darksoft, and Brizzo of Arcade Projects for finally a
   <img src="https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/arcadeprojects.jpeg"><img src="https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/brizzo.jpeg">
 </p>
 
-#Stage One:
+# Stage One:
 It is 2019! We can finally put the old "this hardware is too new and still in use, so we don't want to see posted information about how to clone or defeat protection" arguement to rest. 
 
 Exemptions to Prohibition against Circumvention of Technological Measures Protecting Copyrighted Works – Seventh Triennial Section 1201 Final Rule, Effective October 28, 2018
@@ -44,7 +44,7 @@ https://www.arcade-projects.com/forums/index.php?board/71-taito-type-x/
 For information on NesicaXlive games that have been "preserved" please stop by the following thread on Arcade Projects:
 https://www.arcade-projects.com/forums/index.php?thread/5772-nesicaxlive-preservation/
 
-#Remote exploitation Example 1:
+## Remote exploitation Example 1:
 - Taito X2 (Street Fighter 4 Version 1.00)
 The x2 appears vulnerable to both CVE-2008-4250 and CVE-2017-0143, but finding a proper exploit can be tricky because of the embedded XP variant on SP2 with JP locale
 
@@ -309,7 +309,7 @@ Session completed
 ```
 Please note that the typex password has an uppercase "P" where as the oem user uses a lowercase "p". 
 
-#Second Stage:
+# Second Two:
 - Leveraging access for lateral movement
 
 This repo comes with 2 examples for you to build on. We've already used them to enable ourselves to boot off of any USB device we wish. You can too... 
@@ -321,6 +321,7 @@ For this exercise you will ultimately need a replacement TDEGBoot.exe or launche
 
 Converting the provided .sh files to .bat for Windows users should be simple enough. We will update this repo with more *user friendly* options as time permits. 
 
+## Post Exploitaiton Meterpreter scripting
 The most important files are the .meter files, as they are the scripted meterpreter commands used to create the softmod. Make sure you understand how they work before attempting to use this repo. 
 ```
 $ cat l4dac.meter
