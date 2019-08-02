@@ -44,7 +44,7 @@ https://www.arcade-projects.com/forums/index.php?board/71-taito-type-x/
 For information on NesicaXlive games that have been "preserved" please stop by the following thread on Arcade Projects:
 https://www.arcade-projects.com/forums/index.php?thread/5772-nesicaxlive-preservation/
 
-## Remote exploitation Example 1:
+## Remote Exploitation Example 1:
 - Taito X2 (Street Fighter 4 Version 1.00)
 The x2 appears vulnerable to both CVE-2008-4250 and CVE-2017-0143, but finding a proper exploit can be tricky because of the embedded XP variant on SP2 with JP locale
 
@@ -162,7 +162,7 @@ Session completed
 We can now use the netguest / netguest user and password in the second stage softmod process. *YOU* the reader don't even have to go through stage one, 
 simply use the password shared above, and move on to stage two. 
 
-#Remote exploitation Example 2:
+#Remote Exploitation Example 2:
 - Taito X3 (Left4Dead ver ??, torn sticker shows it was [factory?] updated from Gunslinger Stratos ver ??)
 
 For the X3 we will use the Eternal Blue module in metasploit https://en.wikipedia.org/wiki/EternalBlue
