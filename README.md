@@ -445,6 +445,8 @@ Protected Volume Configuration
   Memory used for mapping 4096 bytes
 ```
 
-Official video tutorial for the Taito X3 USB boot softmode by Mitsu (as usual!) can be found here: https://www.youtube.com/watch?v=l0nq1pQXX90
+Have fun! Be safe! We will be back with more *soon*. 
+
+Official video tutorial for the Taito X3 USB boot softmod by Mitsu (as usual!) can be found here: https://www.youtube.com/watch?v=l0nq1pQXX90
 
 
