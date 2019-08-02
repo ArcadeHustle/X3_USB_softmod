@@ -1,4 +1,3 @@
-```
 Big Thanks to Mitsurugi_w, Darksoft, and Brizzo for finally allowing this to be published. 
 - written by *hostile*, with supporting information from *fsckewe*
 
@@ -327,4 +326,3 @@ quit
 
 Official video tutorial for the Taito X3 USB boot softmode by Mitsu (as usual!) can be found here: https://www.youtube.com/watch?v=l0nq1pQXX90
 
-```
