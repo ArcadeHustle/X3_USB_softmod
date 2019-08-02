@@ -2,6 +2,9 @@
 Big Thanks to Mitsurugi_w, Darksoft, and Brizzo for finally allowing this to be published. 
 - written by *hostile*, with supporting information from *fsckewe*
 
+![alt text](https://raw.githubusercontent.com/ArcadeHustle/X3_USB_softmod/master/darksoft.jpeg) ![alt text](https://raw.githubusercontent.com/ArcadeHustle/X3_USB_softmod/master/walsdawg.jpeg) ![alt text](https://raw.githubusercontent.com/ArcadeHustle/X3_USB_softmod/master/arcadeprojects.jpeg)
+
+
 It is 2019! We can finally put the old "this hardware is too new and still in use, so we don't want to see posted information about how to clone or defeat protection" arguement to rest. 
 
 Exemptions to Prohibition against Circumvention of Technological Measures Protecting Copyrighted Works – Seventh Triennial Section 1201 Final Rule, Effective October 28, 2018
