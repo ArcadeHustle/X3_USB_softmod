@@ -3,7 +3,9 @@ Big thanks to Mitsurugi_w, Darksoft, and Brizzo for finally allowing this to be 
 - written by *hostile*, with supporting information from *fsckewe*
 ```
 ![alt text](https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/walsdawg.jpeg) ![alt text](https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/darksoft.jpeg) 
-->![alt text](https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/arcadeprojects.jpeg)<-
+<p align="center">
+  <img src="https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/arcadeprojects.jpeg">
+</p>
 
 ```
 It is 2019! We can finally put the old "this hardware is too new and still in use, so we don't want to see posted information about how to clone or defeat protection" arguement to rest. 
