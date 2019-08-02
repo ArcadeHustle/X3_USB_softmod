@@ -46,6 +46,7 @@ https://www.arcade-projects.com/forums/index.php?thread/5772-nesicaxlive-preserv
 
 ## Remote Exploitation Example 1:
 - Taito X2 (Street Fighter 4 Version 1.00)
+
 The x2 appears vulnerable to both CVE-2008-4250 and CVE-2017-0143, but finding a proper exploit can be tricky because of the embedded XP variant on SP2 with JP locale
 
 We will use a standalone exploit published about 11 months ago, instead of Metasploit to gain initial access: 
