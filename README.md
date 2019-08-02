@@ -163,7 +163,7 @@ Session completed
 We can now use the netguest / netguest user and password in the second stage softmod process. *YOU* the reader don't even have to go through stage one, 
 simply use the password shared above, and move on to stage two. 
 
-#Remote Exploitation Example 2:
+## Remote Exploitation Example 2:
 - Taito X3 (Left4Dead ver ??, torn sticker shows it was [factory?] updated from Gunslinger Stratos ver ??)
 
 For the X3 we will use the Eternal Blue module in metasploit https://en.wikipedia.org/wiki/EternalBlue
