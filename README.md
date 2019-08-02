@@ -11,7 +11,7 @@ Big thanks to Mitsurugi_w, Darksoft, and Brizzo of Arcade Projects for finally a
 </p>
 
 # Stage One:
-It is 2019! We can finally put the old "this hardware is too new and still in use, so we don't want to see posted information about how to clone or defeat protection" arguement to rest. 
+It is 2019! We can finally put the old "this hardware is too new and still in use, so we don't want to see posted information about how to clone or defeat protection" argument to rest. 
 
 Exemptions to Prohibition against Circumvention of Technological Measures Protecting Copyrighted Works – Seventh Triennial Section 1201 Final Rule, Effective October 28, 2018
 https://library.osu.edu/document-registry/docs/1027/stream
