@@ -310,7 +310,7 @@ Session completed
 ```
 Please note that the typex password has an uppercase "P" where as the oem user uses a lowercase "p". 
 
-# Second Two:
+# Stage Two:
 - Leveraging access for lateral movement
 
 This repo comes with 2 examples for you to build on. We've already used them to enable ourselves to boot off of any USB device we wish. You can too... 
