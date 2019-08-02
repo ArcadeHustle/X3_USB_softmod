@@ -1,10 +1,13 @@
 ```
-Big thanks to Mitsurugi_w, Darksoft, and Brizzo for finally allowing this to be published. 
+Big thanks to Mitsurugi_w, Darksoft, and Brizzo of Arcade Projects for finally allowing this to be published. 
 - written by *hostile*, with supporting information from *fsckewe*
 ```
-![alt text](https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/walsdawg.jpeg) ![alt text](https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/darksoft.jpeg) 
 <p align="center">
-  <img src="https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/arcadeprojects.jpeg">
+<img src="https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/walsdawg.jpeg"><img src="https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/darksoft.jpeg">
+</p>
+
+<p align="center">
+  <img src="https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/arcadeprojects.jpeg"><img src="https://github.com/ArcadeHustle/X3_USB_softmod/blob/master/brizzo.jpeg">
 </p>
 
 ```
