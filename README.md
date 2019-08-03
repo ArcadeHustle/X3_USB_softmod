@@ -21,6 +21,8 @@ https://library.osu.edu/site/copyright/2019/03/20/2018-dmca-section-1201-exempti
 "Video games in the form of computer programs, lawfully acquired as complete games 37 CFR §201.40(b)(12)" 
 "For personal, local gameplay; or To allow preservation in a playable format..."
 
+Please note that the following text is considered "for purposes of good-faith security research". 
+
 For now some of this information will be further gatekept. This will write up will absolutly however give you all the access you need to enable USB bootable games... 
 Making a "multi" out of this is trivial. You can, as many folks have pointed out, use *any* front end, Niko's, Joerg's or AttractMode as examples. 
 
